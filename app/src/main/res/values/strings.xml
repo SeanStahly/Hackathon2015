@@ -12,4 +12,6 @@
     <string name="join_game">Join Game</string>
     <string name="new_gmae">New Game</string>
     <string name="test">Test</string>
+    <string name="game_name">Game Name</string>
+
 </resources>
