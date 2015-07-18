@@ -11,6 +11,7 @@
     <string name="create_game">Create Game</string>
     <string name="join_game">Join Game</string>
     <string name="new_gmae">New Game</string>
+    <string name="test">Test</string>
 
     <string name="facebook_app_id">Hackathon2015</string>
 </resources>
