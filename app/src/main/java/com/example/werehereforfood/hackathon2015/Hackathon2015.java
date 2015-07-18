@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.facebook.FacebookSdk;
 
 
 public class Hackathon2015 extends ActionBarActivity {
@@ -11,6 +12,9 @@ public class Hackathon2015 extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        //Initialize the SDK before executing any other operations
+        //especially, if you're using Facebook UI elements
         setContentView(R.layout.activity_hackathon2015);
     }
 
