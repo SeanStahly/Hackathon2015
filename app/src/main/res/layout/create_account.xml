@@ -4,10 +4,10 @@
     android:layout_height="match_parent">
     <TableRow android:layout_width="fill_parent">
 
-        <Button android:id="@+id/CreateButton" android:text="@string/create_game" android:layout_width="fill_parent"/>
+        <Button android:id="@+id/CreateButton" android:text="create_game" android:layout_width="fill_parent"/>
     </TableRow>
     <TableRow>
-        <Button android:id="@+id/joinButton" android:text="@string/join_game"/>
+        <Button android:id="@+id/joinButton" android:text="join_game"/>
     </TableRow>
     <TextView
         android:layout_width="match_parent"
