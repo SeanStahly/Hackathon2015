@@ -12,6 +12,9 @@ public class Hackathon2015 extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        //Initialize the SDK before executing any other operations
+        //especially, if you're using Facebook UI elements
         setContentView(R.layout.activity_hackathon2015);
     }
 
